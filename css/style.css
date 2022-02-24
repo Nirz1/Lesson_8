@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Redressed&display=swap");
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+	max-width: 1080px;
+	margin: 0 auto;
+	border-radius: 15px;
+	box-shadow: 1px 2px 3px 4px #000;
+	background-color: rgba(255, 255, 255, 0.555);
+}
+
+body {
+	font-family: "Redressed", cursive;
+	background: url(../img/photo.jpg) 0 0 / cover no-repeat;
+	font-size: 20px;
+	line-height: 130%;
+}
+
+.title {
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 700;
+	font-size: 46px;
+	color: rgb(58, 28, 0);
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.text-block p {
+	color: rgb(95, 56, 7);
+}
+
+.text-block p:hover {
+	background-color: rgba(110, 110, 98, 0.486);
+	font-size: 21px;
+}
+
+.text-block p:not(:last-child) {
+	margin-bottom: 15px;
+}
+
+.block-tab {
+	max-width: 500px;
+	max-height: 450px;
+	border-radius: 10px;
+	box-shadow: 0 3px 4px 2px #000;
+	background-color: rgba(255, 228, 196, 0.658);
+	margin: 20px auto;
+}
+
+.button {
+	max-width: 400px;
+	max-height: 400px;
+	margin: 0 auto;
+	padding: 8px 0;
+}
+
+.button a {
+	display: inline-block;
+	padding: 15px 30px;
+	background-color: aqua;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-radius: 10px;
+	margin: 8px 5px 8px 5px;
+}
+
+.link:focus {
+	outline: 5px solid rgb(66, 82, 231);
+}
+
+.text-button {
+	display: none;
+}
+
+.text-button:target {
+	display: block;
+}
+
+.gif-block {
+	margin: 0 auto;
+	max-width: 70%;
+	max-height: 70%;
+}
+
+.gif {
+	display: none;
+	width: auto;
+	height: 200px;
+}
+
+.gif:target {
+	display: block;
+}
+
+.list-block {
+	max-width: 600px;
+	outline: 2px dotted #000;
+	margin-bottom: 20px;
+}
+
+.list-block li {
+	margin-bottom: 8px;
+	color: crimson;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 0 0 0 40px;
+	text-decoration: underline;
+}
+
+.list-block li:last-child {
+	margin-bottom: 0px;
+}
+
+.list-block li:nth-child(odd) {
+	background-color: rgba(12, 218, 149, 0.548);
+	color: white;
+}
+
+.list-block li::before {
+	content: "";
+	background: url(../img/giphy.gif) 0 0 / 25px no-repeat;
+	width: 25px;
+	height: 25px;
+	display: inline-block;
+	border-radius: 50%;
+	margin: 0 11px 0 -35px;
+}
+
+.link-text {
+	padding: 15px 32px;
+	color: white;
+	background-image: rgb(2, 0, 36);
+	background: linear-gradient(
+		90deg,
+		rgba(2, 0, 36, 1) 0%,
+		rgba(213, 115, 115, 0.4738270308123249) 38%,
+		rgba(0, 212, 255, 1) 100%
+	);
+	display: inline-block;
+	border-radius: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-family: "Josefin Sans", sans-serif;
+	box-shadow: 0px 4px 2px 0px #000;
+	margin-bottom: 20px;
+}
+
+.link-text:hover {
+	margin-top: 2px;
+	box-shadow: 0px 2px 1px 0px #000;
+}
+
+.link-text:active {
+	margin-top: 3px;
+	box-shadow: inset 0px 0px 3px 3px #000;
+}
+
+.text-button2 p {
+	margin-bottom: 8px;
+	color: chocolate;
+}
+
+.text-button2 *:last-child {
+	margin-bottom: 0px;
+}
+
+.text-button2 p:nth-child(1),
+.text-button2 p:nth-child(3) {
+	color: blue;
+	font-family: "Josefin Sans", sans-serif;
+}
+
+.hover-text {
+	background-color: rgba(127, 255, 212, 0.541);
+}
